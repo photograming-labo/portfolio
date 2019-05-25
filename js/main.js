@@ -18,17 +18,17 @@ jQuery(document).ready(function( $ ) {
     interval: 3500
   });
 
-  // JavaScript Chart
+  // PHP Chart
   var doughnutData = [{
-      value: 70,
+      value: 50,
       color: "#1abc9c"
     },
     {
-      value: 30,
+      value: 50,
       color: "#ecf0f1"
     }
   ];
-  var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("PHP").getContext("2d")).Doughnut(doughnutData);
 
   // Bootstrap Chart
   var doughnutData = [{
@@ -68,25 +68,25 @@ jQuery(document).ready(function( $ ) {
 
   // Photoshop Chart
   var doughnutData = [{
-    value: 70,
+    value: 50,
     color: "#1abc9c"
   },
   {
-    value: 30,
+    value: 50,
     color: "#ecf0f1"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
 
-  // Illustrator Chart
+  // Lightroom Chart
   var doughnutData = [{
-    value: 50,
+    value: 80,
     color: "#1abc9c"
   },
   {
-    value: 50,
+    value: 20,
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("Lightroom").getContext("2d")).Doughnut(doughnutData);
 });
